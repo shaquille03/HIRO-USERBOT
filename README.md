@@ -1,5 +1,5 @@
 <a href="https://cooltext.com"><img src="https://images.cooltext.com/5520759.gif" width="802" height="96" alt="King Userbot" /></a>
-
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5532733.png" width="425" height="83" alt="Hiro-Userbot" /></a>
 <p align="center">
   <a href="https://github.com/apisuserbot/King-Userbot/fork">
     <img src="https://img.shields.io/github/forks/apisuserbot/King-Userbot?label=Fork&style=social">
@@ -24,13 +24,14 @@
 </p>
 
 ![King Userbot Logo](https://telegra.ph/file/1bf2eacc0f1aaca83eaa5.jpg)
-
+![Hiro Userbot Logo](https://telegra.ph/file/bac9016c8f9583aace483.jpg)
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
 ### Repo King Userbot
 Repo Yang Dibuat [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot Github 
-
+### Fork Hiro Userbot
+By [Hiro](https://t.me/iamhiro)
 ## Cara Deploy 👷
 
 ```
@@ -53,7 +54,7 @@ Repo Yang Dibuat [Apis](https://t.me/PacarFerdilla) Dari Berbagai Repo Userbot G
 ## <p align="center">DEPLOY KING-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/apisuserbot/King-Userbot/tree/King-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shaquille03/Hiro-Userbot/tree/King-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
