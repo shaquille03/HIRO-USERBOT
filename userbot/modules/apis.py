@@ -32,7 +32,7 @@ async def koc(e):
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
         await e.edit("SAYANG KAMU💞")
-        await e.edit("***TAPI BOONG HEHEHEHE***")
+        await e.edit("**TAPI BOONG HEHEHEHE**")
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
 async def typewriter(typew):
