@@ -1,7 +1,7 @@
 {
-  "name": "King-Userbot",
-  "description": "[King-Userbot] USERBOT TELEGRAM.",
-  "logo": "https://telegra.ph/file/1bf2eacc0f1aaca83eaa5.jpg",
+  "name": "Hiro-Userbot",
+  "description": "[Hiro-Userbot] USERBOT TELEGRAM.",
+  "logo": "https://telegra.ph/file/bac9016c8f9583aace483.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/apisuserbot/King-Userbot",
-  "telegram": "https://t.me/PacarFerdilla",
-  "success_url": "https://t.me/PacarFerdilla",
+  "repository": "https://github.com/shaquille03/Hiro-Userbot",
+  "telegram": "https://t.me/iamhiro",
+  "success_url": "https://t.me/hiro_bot03",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️",
+      "value": "⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫",
       "required": false
     },
     "ALIVE_NAME": {
