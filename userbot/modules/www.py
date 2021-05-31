@@ -58,10 +58,10 @@ async def pingme(pong):
     await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
-                    f"\n  ☞ `%sms` \n"
-                    f"〠 __My__ **KING** __|━|⎆__ ヅ "
-                    f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
+    await pong.edit(f"____ **PING** ____ "
+                    f"\n  ▶ `%sms` \n"
+                    f"____ **HIRO** ____ "
+                    f"\n  ▶ `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.kping$")
@@ -70,7 +70,7 @@ async def pingme(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("⚡")
-    await pong.edit("__**...💠KING💠...**__")
+    await pong.edit("__**...💠HIRO💠...**__")
     await pong.edit("__**.....USERBOT.....**__")
     await pong.edit("__**......MOHON MENUNGGU......**__")
     await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
@@ -81,7 +81,7 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**╰━❖  king ping ❖━╯**\n"
+    await pong.edit(f"**╰━❖  Hiro PING ❖━╯**\n"
                     f"☞ __ping:__ "
                     f"`%sms` \n"
                     f"☞ __i'm online:__ "
@@ -93,11 +93,11 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`.....⚡King⚡.....`")
-    await pong.edit("`⚡️`")
+    await pong.edit("`.....Hiro.....`")
+    await pong.edit("`🔥`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"•⎚• ⎆ __King__ **Pong!**\n"
+    await pong.edit(f"•⎚• ⎆ __HIRO__ **Pong!**\n"
                     f"☞  __Ping:__ "
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu:__ "
@@ -123,7 +123,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"═⎆ **Sisa Waktu:** "
                     f"`{uptime}` \n"
-                    f"**✠➲ HIRO:** `{ALIVE_NAME}`" % (duration))
+                    f"**⚫HIRO⚫**" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
