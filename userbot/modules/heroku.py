@@ -181,7 +181,7 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                f"★ **INFO KUOTA KING** ★\n╔══════━━━━━━━══════╗ \n"
+                f"★ **⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫** ★\n╔══════━━━━━━━══════╗ \n"
                 f" ➠ **Penggunaan Kuota :** `{app.name}` \n"
                 f"• **Hasil** :  `{AppHours}` **Jam** - `{AppMinutes}` **Menit**\n"
                 f"• **Persen** : `{AppPercentage}`**%**\n"
@@ -190,8 +190,8 @@ async def dyno_usage(dyno):
                 f"• **Sisa** :  `{hours}` **Jam** - `{minutes}` **Menit**\n"
                 f"• **Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
-                f"◈ **KING**  : {ALIVE_NAME} \n"
-                f"◈ **REPO** : [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
+                f"◈ **USER**  : {ALIVE_NAME} \n"
+                f"◈ **REPO** : [Hiro-Userbot](https://github.com/shaquille03/Hiro-Userbot) \n"
             )
             await asyncio.sleep(20)
             await event.delete()
