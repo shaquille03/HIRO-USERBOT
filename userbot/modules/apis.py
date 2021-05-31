@@ -5,11 +5,46 @@ from telethon import events
 import asyncio
 
 
+@register(outgoing=True, pattern="^.nka$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("INKAAAAAA 💕")
+        sleep(1)
+        await e.edit("💝💘💓💗")        
+        await e.edit("💞💕💗💘")        
+        await e.edit("💝💘💓💗")        
+        await e.edit("💞💕💗💘")        
+        await e.edit("💘💞💗💕")       
+        await e.edit("💘💞💕💗")        
+        await e.edit("EMMMMM")        
+        await e.edit("💝💘💓💗")
+        await e.edit("💞💕💗💘")
+        await e.edit("💘💞💕💗")
+        await e.edit("AKU")        
+        await e.edit("SAYANG 👉👈")        
+        await e.edit("KAMU 👉👈 😘😘")
+        sleep(1)
+        await e.edit("💘💘💘💘")
+        sleep(1)
+        await e.edit("INKA....")
+        sleep(1)
+        await e.edit("AKU.....")        
+        await e.edit("SAYANG....")        
+        await e.edit("KAMU❤❤❤❤❤")       
+        await e.edit("I LOVE YOUUUU")
+        sleep(1)
+        await e.edit("TAPI")
+        sleep(1)
+        await e.edit("BOONG")        
+        await e.edit("BANG")
+        await e.edit("HEHEHEHEHE💞")
+
+
 @register(outgoing=True, pattern="^.sayang$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("I LOVEE YOUUU 💕")
-        await e.edit("INKA")
+        await e.edit("KAMU")
         await e.edit("💞💕💗💘")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
