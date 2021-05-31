@@ -9,7 +9,7 @@ import asyncio
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("I LOVEE YOUUU 💕")
-        await e.edit("💝💘💓💗")
+        await e.edit("INKA")
         await e.edit("💞💕💗💘")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
@@ -23,16 +23,16 @@ async def koc(e):
         await e.edit("KAMU")
         await e.edit("SELAMANYA 💕")
         await e.edit("💘💘💘💘")
+        await e.edit("AKU")
         await e.edit("SAYANG")
         await e.edit("KAMU")
-        await e.edit("SAYANG")
-        await e.edit("KAMU")
+        await e.edit("IYA KAMU")
         await e.edit("I LOVE YOUUUU")
         await e.edit("MY BABY")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
         await e.edit("SAYANG KAMU💞")
-
+        await e.edit("***TAPI BOONG HEHEHEHE***")
 
 @register(outgoing=True, pattern='^.dino(?: |$)(.*)')
 async def typewriter(typew):
