@@ -5,6 +5,21 @@ from telethon import events
 import asyncio
 
 
+@register(outgoing=True, pattern="^.bang$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Bang")
+        sleep(1)
+        await e.edit("Nyanyi Bang")
+
+@register(outgoing=True, pattern="^.kak$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Kak")
+        sleep(1)
+        await e.edit("Ajarin Nyanyi")        
+        
+
 @register(outgoing=True, pattern="^.nka$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -31,13 +46,7 @@ async def koc(e):
         await e.edit("AKU.....")        
         await e.edit("SAYANG....")        
         await e.edit("KAMU❤❤❤❤❤")       
-        await e.edit("I LOVE YOUUUU")
-        sleep(1)
-        await e.edit("TAPI")
-        sleep(1)
-        await e.edit("BOONG")        
-        await e.edit("BANG")
-        await e.edit("HEHEHEHEHE💞")
+        await e.edit("I LOVE YOUUUU")        
 
 
 @register(outgoing=True, pattern="^.sayang$")
