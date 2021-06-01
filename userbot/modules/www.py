@@ -121,9 +121,9 @@ async def pingme(pong):
     await pong.edit(f"╔════**TEST PING**════\n"
                     f"╟ **Ping:** "
                     f"`%sms` \n"
-                    f"╚═ **Waktu:** "
+                    f"╟**Waktu Rentalan:** "
                     f"`{uptime}` \n"
-                    f"**⚫HIRO⚫**" % (duration))
+                    f"**HIRO**" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
