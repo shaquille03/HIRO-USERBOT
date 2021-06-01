@@ -11,13 +11,13 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.P(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Assalamu'alaikum...`")
+    await typew.edit("`Assalamualaikum Bang...`")
 
 
 @register(outgoing=True, pattern=r"^\.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Assalamu'alaikum...`")
+    await typew.edit("`Assalamualaikum Bang...`")
 
 
 @register(outgoing=True, pattern="^.Ass(?: |$)(.*)")
@@ -25,27 +25,27 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(f"**Halo bro saya {DEFAULTUSER} salam kenal 😁**")
     sleep(2)
-    await typew.edit("`Assalamualaikum Waruhmatulahi Wabarukatuh...`")
+    await typew.edit("`Assalamualaikum Waruhmatullahi Wabarukatuh...`")
 
 
 @register(outgoing=True, pattern="^.Waa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**iyaa bro**")
+    await typew.edit("**Iyaa bang**")
     sleep(2)
-    await typew.edit("`Walaikumsalam Waruhmatulahi Wabarukatuh...`")
+    await typew.edit("`Waalaikumsalam Waruhmatullahi Wabarukatuh...`")
 
 
 @register(outgoing=True, pattern="^.L(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Wa'alaikumsalam...`")
+    await typew.edit("`Wa'alaikumsalam Bang...`")
 
 
 @register(outgoing=True, pattern=r"^\.l(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Wa'alaikumsalam...`")
+    await typew.edit("`Wa'alaikumsalam Bang...`")
 
 
 CMD_HELP.update(
