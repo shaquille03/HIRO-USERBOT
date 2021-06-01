@@ -112,18 +112,20 @@ async def pingme(pong):
     await pong.edit("**Memulai Test Sinyal**")
     await pong.edit("**..Mohon menunggu..**")
     await pong.edit("**...................**")
+    await pong.edit("**...................**")
+    await pong.edit("**...................**")
+    await pong.edit("**100 Tahun Kemudia ........**")
     await pong.edit("**BANG**")
-    await pong.edit("**DIKIT LAGI NIH**")
-    await pong.edit("**................**")
+    await pong.edit("**UDAH NIH**")
     await pong.edit("🔥")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"╔════**TEST PING**════\n"
-                    f"╟ **Ping:** "
+                    f"╟**Ping:** "
                     f"`%sms` \n"
                     f"╟**Waktu Rentalan:** "
                     f"`{uptime}` \n"
-                    f"**HIRO**" % (duration))
+                    f"╚**HIRO**" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
