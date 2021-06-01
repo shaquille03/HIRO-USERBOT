@@ -126,7 +126,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"╟**Waktu Rentalan:** "
                     f"`{uptime}` \n"
-                    f"╚**HIRO**" % (duration))
+                    f"╚════**HIRO**" % (duration))
 
 
 @register(outgoing=True, pattern="^.sinyal$")
