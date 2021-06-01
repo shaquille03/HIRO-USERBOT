@@ -326,7 +326,7 @@ async def redis(alive):
         f"**╔══════━━━━━━━══════╗ ** \n"
         f"**      ⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫       ** \n"
         f"**╚══════━━━━━━━══════╝ ** \n"
-        f"  ╔═══════════━━━━━━━═══════════╗\n"
+        f"  ╔══════━━━━━━━═══════╗\n"
         f"  ╟◈  `User     :`{DEFAULTUSER} \n"
         f"  ╟◈  `Username :`@{user.username} \n"
         f"  ╟◈  `Telethon :`v. {version.__version__} \n"
@@ -334,7 +334,7 @@ async def redis(alive):
         f"  ╟◈  `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
         f"  ╟◈  `Bot Ver  :`v. {BOT_VER} \n"
         f"  ╟◈  `Plugins  :`{len(modules)} Plugins \n"
-        f"  ╚═══════════━━━━━━━═══════════╝ \n"
+        f"  ╚══════━━━━━━━═══════╝ \n"
         f"| [Repo](https://apisuserbot.github.io/King-Userbot) | [King-Team](t.me/KingUserbotSupport) | "
         f"[Pemilik](t.me/iamhiro)")
     if ALIVE_LOGO:
