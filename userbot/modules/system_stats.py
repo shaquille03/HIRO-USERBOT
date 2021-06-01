@@ -232,13 +232,13 @@ async def amireallyalive(alive):
         f"**══════════════════════**\n"
         f"** User** \n"
         f" ↳ : `{DEFAULTUSER}` \n"
-        f"**🔎 Username** \n"
+        f"** Username** \n"
         f" ↳ : `@{user.username}` \n"
         f"╔═══════════════════════\n"
-        f"╟[•⚙️ `Telethon :`Ver {version.__version__} \n"
-        f"╟[•🐍 `Python   :`Ver {python_version()} \n"
-        f"╟[•👾 `Bot Ver  :`{BOT_VER} \n"
-        f"╟[•📂 `Plugins  :`{len(modules)} \n"
+        f"╟[• `Telethon :`Ver {version.__version__} \n"
+        f"╟[• `Python   :`Ver {python_version()} \n"
+        f"╟[• `Bot Ver  :`{BOT_VER} \n"
+        f"╟[• `Plugins  :`{len(modules)} \n"
         f"╚═══════════════════════")
     if ALIVE_LOGO:
         try:
@@ -267,14 +267,14 @@ async def amireallyalive(alive):
     output = (
         f"𝗫 ►⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫◄ 𝗫 \n"
         f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"╟ 🤴 User     : {DEFAULTUSER}\n"
-        f"╟ 🔎 Username : @{user.username}\n"
+        f"╟ User     : {DEFAULTUSER}\n"
+        f"╟ Username : @{user.username}\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"╟◈ ⚙️ `Telethon :`v {version.__version__} \n"
-        f"╟◈ 🐍 `Python   :`v {python_version()} \n"
-        f"╟◈ 💻 `Branch  :`{UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 🛠 `Version  :`{BOT_VER} \n"
-        f"╟◈ 📂 `Plugins  :`{len(modules)} Plugin \n"
+        f"╟◈ `Telethon :`v {version.__version__} \n"
+        f"╟◈ `Python   :`v {python_version()} \n"
+        f"╟◈ `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"╟◈ `Version  :`{BOT_VER} \n"
+        f"╟◈ `Plugins  :`{len(modules)} Plugin \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"◈ **PEMILIK         :** [Hiro](https://t.me/iamhiro) \n"
         f"◈ **ORIGINAL REPO   :** [King-Userbot](https://github.com/apisuserbot/King-Userbot) \n"
@@ -314,17 +314,19 @@ async def redis(alive):
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑...__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑..__")
     await alive.edit("__𝐄 𝐑 𝐑 𝐎 𝐑.__")
-    await alive.edit("__𝐗...𝐒𝐈𝐒𝐓𝐄𝐌...𝐗__")
+    await alive.edit("__...𝐒𝐈𝐒𝐓𝐄𝐌 𝐄𝐑𝐑𝐎𝐑...__")
+    await asyncio.sleep(1)
     await alive.edit("⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫")
+    await asyncio.sleep(1)
     await alive.edit("🔥")
-    await asyncio.sleep(4)
+    await asyncio.sleep(3)
     await alive.edit("💀")
     await asyncio.sleep(3)
     output = (
         f"**╔══════━━━━━━━══════╗ ** \n"
         f"**     ⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫       ** \n"
         f"**╚══════━━━━━━━══════╝ ** \n"
-        f"  ╔═══════════════━━━━━━━═════════════╗\n"
+        f"  ╔═══════════━━━━━━━═══════════╗\n"
         f"  ╟◈  `User     :`{DEFAULTUSER} \n"
         f"  ╟◈  `Username :`@{user.username} \n"
         f"  ╟◈  `Telethon :`v. {version.__version__} \n"
@@ -332,7 +334,7 @@ async def redis(alive):
         f"  ╟◈  `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
         f"  ╟◈  `Bot Ver  :`v. {BOT_VER} \n"
         f"  ╟◈  `Plugins  :`{len(modules)} Plugins \n"
-        f"  ╚═══════════════━━━━━━━═════════════╝ \n"
+        f"  ╚═══════════━━━━━━━═══════════╝ \n"
         f"| [Repo](https://apisuserbot.github.io/King-Userbot) | [King-Team](t.me/KingUserbotSupport) | "
         f"[Pemilik](t.me/iamhiro)")
     if ALIVE_LOGO:
