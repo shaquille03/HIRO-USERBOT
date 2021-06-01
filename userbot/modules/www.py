@@ -140,12 +140,12 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- K I N G -\n"
+    await pong.edit(f"- H I R O -\n"
                     f"**☞ sinyal  :** "
                     f"`%sms` \n"
                     f"**☞ i'm online  :** "
                     f"`{uptime}` \n"
-                    f"__|━|⎆__ **My king  :** `{ALIVE_NAME}`" % (duration))
+                    f"__|━|⎆__ **User  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.uping$")
@@ -156,7 +156,7 @@ async def pingme(pong):
     await pong.edit("`.....☞KING Userbot☜.....`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┏━━| **KING PONG** |━━卍\n"
+    await pong.edit(f"┏━━| **Hiro PONG** |━━卍\n"
                     f"┣|•  __Ping:__ "
                     f"`%sms` \n"
                     f"┗|• __Uptime:__ "
@@ -187,7 +187,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "⚙️ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "⚙️ **BOT:** `⚡King Userbot⚡`")
+                   "⚙️ **BOT:** `⚫Hiro-Userbot⚫`")
 
 
 def speed_convert(size):
@@ -207,21 +207,21 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong...........🏎`")
-    await pong.edit("`Pong..........🏎.`")
-    await pong.edit("`Pong.........🏎..`")
-    await pong.edit("`Pong........🏎...`")
-    await pong.edit("`Pong.......🏎....`")
-    await pong.edit("`Pong......🏎.....`")
-    await pong.edit("`Pong.....🏎......`")
-    await pong.edit("`Pong....🏎.......`")
-    await pong.edit("`Pong...🏎........`")
-    await pong.edit("`Pong..🏎.........`")
-    await pong.edit("`Pong.🏎..........`")
-    await pong.edit("`Pong🏎...........`")
+    await pong.edit("`Pong...........⚾`")
+    await pong.edit("`Pong..........⚾.`")
+    await pong.edit("`Pong.........⚾..`")
+    await pong.edit("`Pong........⚾...`")
+    await pong.edit("`Pong.......⚾....`")
+    await pong.edit("`Pong......⚾.....`")
+    await pong.edit("`Pong.....⚾......`")
+    await pong.edit("`Pong....⚾.......`")
+    await pong.edit("`Pong...⚾........`")
+    await pong.edit("`Pong..⚾.........`")
+    await pong.edit("`Pong.⚾..........`")
+    await pong.edit("`Pong⚾...........`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("⎚⎆ __King__ **Test Ping!**\n`%sms`" % (duration))
+    await pong.edit("⎚⎆ __Hiro__ **Test Ping!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
     {
