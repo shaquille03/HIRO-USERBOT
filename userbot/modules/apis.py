@@ -12,17 +12,17 @@ async def koc(e):
         await e.edit("HARAP")        
         await e.edit("MINGGIR")        
         await e.edit("🔵🔵⬜⬜🔴🔴
-🔵🔵⬜⬜🔴🔴")        
+                      🔵🔵⬜⬜🔴🔴")        
         await e.edit("🔴🔴⬜⬜🔵🔵
-🔴🔴⬜⬜🔵🔵")        
+                      🔴🔴⬜⬜🔵🔵")        
         await e.edit("🔵🔵⬜⬜🔴🔴
-🔵🔵⬜⬜🔴🔴")       
+                      🔵🔵⬜⬜🔴🔴")       
         await e.edit("🔴🔴⬜⬜🔵🔵
-🔴🔴⬜⬜🔵🔵")                        
+                      🔴🔴⬜⬜🔵🔵")                        
         await e.edit("🔵🔵⬜⬜🔴🔴
-🔵🔵⬜⬜🔴🔴")       
+                      🔵🔵⬜⬜🔴🔴")       
         await e.edit("🔴🔴⬜⬜🔵🔵
-🔴🔴⬜⬜🔵🔵")       
+                      🔴🔴⬜⬜🔵🔵")       
 
 
 @register(outgoing=True, pattern="^.kak$")
