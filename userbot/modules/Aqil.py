@@ -53,3 +53,18 @@ async def koc(e):
         await e.edit("**DENGAN SELAMAT**")
         sleep(1)
         await e.edit("🏥")
+
+
+
+
+CMD_HELP.update({
+    "admin gabut":
+    "⚫𝘾𝙈𝘿⚫`.amb`\
+    \nPenjelasan: Ambulance\
+    \n\n⚫𝘾𝙈𝘿⚫`.nka`\
+    \nPenjelasan: Inka\
+    \n\n⚫𝘾𝙈𝘿⚫`.el`\
+    \nPenjelasan: elvira gabut.\
+    \n\n⚫𝘾𝙈𝘿⚫`.lops`\
+    \nPenjelasan: lopsik gabut."
+})
