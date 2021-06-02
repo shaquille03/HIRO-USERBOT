@@ -318,13 +318,13 @@ async def redis(alive):
     await asyncio.sleep(1)
     await alive.edit("⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("⚡")
     await asyncio.sleep(2)
-    await alive.edit("💀")
+    await alive.edit("🔥")
     await asyncio.sleep(2)
     output = (
         f"**╔════━━━━━━━════╗ ** \n"
-        f"**      ⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫       ** \n"
+        f"**   ⚫𝐇𝐢𝐫𝐨-𝐔𝐬𝐞𝐫𝐛𝐨𝐭​⚫    ** \n"
         f"**╚════━━━━━━━════╝ ** \n"
         f"╔═════━━━━━━━══════╗\n"
         f"╟◈`User     :`{DEFAULTUSER} \n"
@@ -336,7 +336,7 @@ async def redis(alive):
         f"╟◈`Plugins  :`{len(modules)} Plugins \n"
         f"╚═════━━━━━━━══════╝ \n"
         f"| [Repo](https://apisuserbot.github.io/King-Userbot) | [King-Team](t.me/KingUserbotSupport) | "
-        f"[Pemilik](t.me/iamhiro)")
+        f"[Pemilik](t.me/iamhiro) | [Fork](https://github.com/shaquille03/Hiro-Userbot) | "
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
