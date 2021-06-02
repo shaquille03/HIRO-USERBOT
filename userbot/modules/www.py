@@ -8,6 +8,7 @@
 
 from datetime import datetime
 
+from time import sleep
 from speedtest import Speedtest
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
@@ -124,6 +125,7 @@ async def pingme(pong):
     await pong.edit("**...............**")
     await pong.edit("**....................**")
     await pong.edit("**100 Tahun Kemudian........**")
+    sleep(3)
     await pong.edit("**BANG**")
     await pong.edit("**UDAH NIH**")
     await pong.edit("🔥")
