@@ -55,7 +55,65 @@ async def koc(e):
         await e.edit("🏥")
 
 
+@register(outgoing=True, pattern="^.nka$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("INKAAAAAA 💕")
+        sleep(1)
+        await e.edit("💝💘💓💗")        
+        await e.edit("💞💕💗💘")        
+        await e.edit("💝💘💓💗")        
+        await e.edit("💞💕💗💘")        
+        await e.edit("💘💞💗💕")       
+        await e.edit("💘💞💕💗")        
+        await e.edit("EMMMMM")        
+        await e.edit("💝💘💓💗")
+        await e.edit("💞💕💗💘")
+        await e.edit("💘💞💕💗")
+        await e.edit("AKU")        
+        await e.edit("SAYANG 👉👈")        
+        await e.edit("KAMU 👉👈 😘😘")
+        sleep(1)
+        await e.edit("💘💘💘💘")
+        sleep(1)
+        await e.edit("INKA....")
+        sleep(1)
+        await e.edit("AKU.....")        
+        await e.edit("SAYANG....")        
+        await e.edit("KAMU❤❤❤❤❤")       
+        await e.edit("I LOVE YOUUUU")
 
+
+
+@register(outgoing=True, pattern="^.lops$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("**LOVESICK GIRL GABUT**")
+        sleep(1)
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🚶‍♂                   🏃                🚶‍♀")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n                  🏃                🚶‍♀   ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n               🏃                🚶‍♀      ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n           🏃                🚶‍♀          ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n       🏃                🚶‍♀            🚶")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n   🏃                🚶‍♀             🚶   ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🏃              🚶‍♀               🚶      ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n          🚶‍♀                🚶           ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n    🚶‍♀                 🚶                ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🚶‍♀                 🚶                 🏃 ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n              🚶             🏃       🐍 ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n        🚶          🏃       🐍          ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n   🚶           🏃       🐍              ")
+        await e.edit("**LARI ADA ULAR**")
+        sleep(2)
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n        🏃       🐍                      ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n    🏃       🐍                          ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🏃       🐍                              ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🧎   🐍                                   ")
+        await e.edit("☁️☁️☁️☁️☁️☁️⛅️☁️☁️☁️☁️☁️\n 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳\n⛺️🌲🌲🌲       ⛺️    🌲🌲     ⛺️\n🧎🐍                                       ")
+        sleep(1)
+        await e.edit("**DAHLAH CAPEK, PASRAH AJA**")
+
+  
 
 CMD_HELP.update({
     "admin gabut":
