@@ -3,44 +3,8 @@ from userbot import CMD_HELP, bot
 from userbot.events import register
 from telethon import events
 import asyncio    
-
-
-@register(outgoing=True, pattern="^.kak$")
-async def koc(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Kak")
-        sleep(1)
-        await e.edit("Ajarin Nyanyi")        
+       
         
-
-@register(outgoing=True, pattern="^.nka$")
-async def koc(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("INKAAAAAA 💕")
-        sleep(1)
-        await e.edit("💝💘💓💗")        
-        await e.edit("💞💕💗💘")        
-        await e.edit("💝💘💓💗")        
-        await e.edit("💞💕💗💘")        
-        await e.edit("💘💞💗💕")       
-        await e.edit("💘💞💕💗")        
-        await e.edit("EMMMMM")        
-        await e.edit("💝💘💓💗")
-        await e.edit("💞💕💗💘")
-        await e.edit("💘💞💕💗")
-        await e.edit("AKU")        
-        await e.edit("SAYANG 👉👈")        
-        await e.edit("KAMU 👉👈 😘😘")
-        sleep(1)
-        await e.edit("💘💘💘💘")
-        sleep(1)
-        await e.edit("INKA....")
-        sleep(1)
-        await e.edit("AKU.....")        
-        await e.edit("SAYANG....")        
-        await e.edit("KAMU❤❤❤❤❤")       
-        await e.edit("I LOVE YOUUUU")        
-
 
 @register(outgoing=True, pattern="^.sayang$")
 async def koc(e):
