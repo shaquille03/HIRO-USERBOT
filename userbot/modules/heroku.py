@@ -125,12 +125,12 @@ async def set_var(var):
 """
 
 
-@register(outgoing=True, pattern=r"^.kuota(?: |$)")
+@register(outgoing=True, pattern=r"^.usage(?: |$)")
 async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
     """
-    await dyno.edit("`Mengecek kuota...🔥`")
+    await dyno.edit("`Mengecek Pemakaian`")
     await asyncio.sleep(1)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
@@ -191,7 +191,6 @@ async def dyno_usage(dyno):
                 f"• **Persen** :  `{percentage}`**%**\n"
                 f"╚══════━━━━━━━══════╝ \n"
                 f"◈ **USER**  : {ALIVE_NAME} \n"
-                f"◈ **REPO** : [Hiro-Userbot](https://github.com/shaquille03/Hiro-Userbot) \n"
             )
             await asyncio.sleep(20)
             await event.delete()
@@ -222,7 +221,7 @@ async def _(dyno):
 CMD_HELP.update(
     {
         "heroku": "**✘ Plugin : **`heroku`\
-        \n\n  •  **Perintah :** `.kuota`\
+        \n\n  •  **Perintah :** `.usage`\
         \n  •  **Function : **Check Kouta Dyno Heroku\
         \n\n  •  **Perintah :** `.set var <nama var> <value>`\
         \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel\n Setelah Menyetel Variabel ⚡️𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡️ Akan Di Restart.\
