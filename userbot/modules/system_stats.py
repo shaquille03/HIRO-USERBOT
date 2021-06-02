@@ -336,7 +336,7 @@ async def redis(alive):
         f"╟◈`Plugins  :`{len(modules)} Plugins \n"
         f"╚═════━━━━━━━══════╝ \n"
         f"| [Repo](https://apisuserbot.github.io/King-Userbot) | [King-Team](t.me/KingUserbotSupport) | "
-        f"[Pemilik](t.me/iamhiro) | [Fork](https://github.com/shaquille03/Hiro-Userbot) | "
+        f"[Pemilik](t.me/iamhiro) | [Fork](https://github.com/shaquille03/Hiro-Userbot) ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
