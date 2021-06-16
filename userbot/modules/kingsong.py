@@ -114,8 +114,7 @@ Artis - {}
         event.chat_id,
         f"{rip_data['id']}.mp3",
         supports_streaming=True,
-        caption=f"**🎶 Song:** {rip_data['title']}\n**🎤 Artist:** {rip_data['uploader']}\n"
-        f"**Uploaded By @iamhiro**\n,
+        caption=f"**🎶 Song:** {rip_data['title']}\n**🎤 Artist:** {rip_data['uploader']}\n** Uploaded by @iamhiro \n",
         attributes=[
             DocumentAttributeAudio(
                 duration=int(rip_data["duration"]),
