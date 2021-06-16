@@ -103,7 +103,7 @@ async def download_video(event):
     except BaseException:
         pass
     upteload = """
-Sedang Mengunggah, Mohon Menunggu...tod
+Sedang Mengunggah, Mohon Menunggu Bang....
 Judul - {}
 Artis - {}
 """.format(
@@ -114,7 +114,8 @@ Artis - {}
         event.chat_id,
         f"{rip_data['id']}.mp3",
         supports_streaming=True,
-        caption=f"**➡ Judul:** {rip_data['title']}\n**➡ Artis:** {rip_data['uploader']}\n",
+        caption=f"**🎶 Song:** {rip_data['title']}\n**🎤 Artist:** {rip_data['uploader']}\n"
+        f"**Uploaded By @iamhiro**\n,
         attributes=[
             DocumentAttributeAudio(
                 duration=int(rip_data["duration"]),
